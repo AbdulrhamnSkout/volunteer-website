@@ -72,12 +72,15 @@ li:hover{
 .Get-started{
     text-align:center;
     margin-top: 50px;
+    background-image: linear-gradient(white,#ECF0F5);
+
 }
 
 .Get-started >h3{
     color:#79b04a;
     font-size: 1.313rem;
     margin: 10px;
+
 }
 
 .Get-started >h1{
@@ -86,5 +89,27 @@ li:hover{
     line-height: 2.313rem;
 
 }
+.list-item{
+    margin-top: 50px;
+    display:flex;
+    flex-wrap: wrap;
+    
+   
+}
 
+ .list-item svg{
+    height: 80px;
+    width: 80px;
+    
+ }
+ .list-item >div{
+     width:250px;
+     margin-top:50px
+ }
+ svg:first-child{
+     fill: #ccc;
+ }
  
+svg:first-child:hover{
+     fill:#ff5533;
+ }
