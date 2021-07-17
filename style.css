@@ -10,14 +10,10 @@ html,body{
 }
 .navbar{
     height: 100px;
-    /* border: 1px solid #000; */
     background-image: linear-gradient(#007fc2,#0070ac);
-    /* position: relative; */
-    /* display: inline; */
-    margin: 0px;
-    padding: 0px;
-    /* display:flex; */
-
+    display:flex;
+    /* margin-top: 0px; */
+    padding:0; 
 }
 /* .logo, .logo > img{
     width:150px;
@@ -26,7 +22,7 @@ html,body{
     padding: 0px;
 } */
 
-ul{
+/* ul{
     list-style-type: none;
     width: 100%;
     display:flex;
@@ -45,6 +41,50 @@ li{
 li:hover{
     background-color:#0070ac
 }
-img{
+*/
+.logo{
+    height:100%;
+}
+.logo > img {
     height:80px;
 }
+.nav-content:hover{
+    background-color:#0070ac;
+}
+.nav-content >a{
+    color:white;
+    font-family:cover ;
+    font-size:large;
+}
+
+.nav-content{
+    display:flex;
+    width:100px;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+}
+ a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color:white;
+}
+
+.Get-started{
+    text-align:center;
+    margin-top: 50px;
+}
+
+.Get-started >h3{
+    color:#79b04a;
+    font-size: 1.313rem;
+    margin: 10px;
+}
+
+.Get-started >h1{
+    color:#002e49;
+    font-size: 2.313rem;
+    line-height: 2.313rem;
+
+}
+
+ 
