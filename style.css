@@ -12,41 +12,14 @@ html,body{
     height: 100px;
     background-image: linear-gradient(#007fc2,#0070ac);
     display:flex;
-    /* margin-top: 0px; */
     padding:0; 
 }
-/* .logo, .logo > img{
-    width:150px;
-    height: 150px;
-    margin: 0px;
-    padding: 0px;
-} */
 
-/* ul{
-    list-style-type: none;
-    width: 100%;
-    display:flex;
-    align-items: space-between;
-}
-li{
-    font-size: 20px;
-    font-family: cursive;
-    width: 150px;
-    height:90px;
-    text-align: center;
-    margin-top: 10px;
-    color: white;          
-}
-
-li:hover{
-    background-color:#0070ac
-}
-*/
 .logo{
     height:100%;
 }
 .logo > img {
-    height:80px;
+    height:100px;
 }
 .nav-content:hover{
     background-color:#0070ac;
@@ -116,7 +89,7 @@ svg:first-child:hover{
 
 .Get-started{
     width: 100%;
-    height:800px;
+    height:1000px;
     background: black;
     overflow: hidden;
     text-align: center;
@@ -146,33 +119,43 @@ svg:first-child:hover{
     font-size:xx-large;
 }
 
-.find {
-    height:400px;
-    width:400px;
+.display-options {
+    height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
     position:absolute;
     top:300px;
-    background-color: white;
-    opacity: 0.7;
-    border-radius: 20px;
-    display: inline;
     margin:0px;
     padding: 0px;
+    justify-content: center;
 }
-.volunteer{
-    left:25%;
+
+.find{
+    background-color: white;
+    height:400px;
+    width:400px;
+    margin:20px;
+    border-radius: 20px;
+    opacity: 0.5;
+
+
 }
-.volunteer > h1{
+
+.volunteer  > h1 ,.opportunities > h1{
     color:#002F49;
     font-weight: bold;
 }
-.volunteer > h3{
+.volunteer >h3 ,.opportunities > h3{
     font-size: medium;
     font-weight: bold;
 }
-.volunteer > img{
+.volunteer > img, .opportunities > img{
     margin-top:60px;
 }
 
-.opportunities{
-    left :50%;
+.about-us{
+    height:800px;
+    border:1px solid black;
 }
+

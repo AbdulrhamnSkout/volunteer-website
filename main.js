@@ -1,22 +1,19 @@
 /// <reference path="jquery-3.6.0.js" />
 "use strict";
 (function (){
-    
-    
-    // function changeBackground(){
-    //     let i=0;
-    //     let arr=["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
-    //     setInterval(
-    //     () => {
-    //        i=(i+1)%4;    
-    //         $("#header").fadeOut("slow", function () {
-    //             $(this).css("background-image", `url(asset/images/${arr[i]})`)
-    //             $(this).fadeIn("fast");
-    //        }) 
-    //     },4000);
-    // }
+  
+    $(".volunteer").on("mouseover",makeBig )
+    $(".opportunities").on("mouseover",makeBig)
+    $(".volunteer").on("mouseout",makeSmall )
+    $(".opportunities").on("mouseout",makeSmall)
+   
+    function makeBig(){
+        $(this).css('opacity', '1').height(450).width(450);
+    }
+    function makeSmall() {
+        $(this).css('opacity',0.5).height(400).width(400);
+    }
 
-    // changeBackground()
 
 
 
