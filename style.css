@@ -69,21 +69,21 @@ li:hover{
     color:white;
 }
 
-.Get-started{
+.info-started{
     text-align:center;
     margin-top: 50px;
     background-image: linear-gradient(white,#ECF0F5);
 
 }
 
-.Get-started >h3{
+.info-started >h3{
     color:#79b04a;
     font-size: 1.313rem;
     margin: 10px;
 
 }
 
-.Get-started >h1{
+.info-started >h1{
     color:#002e49;
     font-size: 2.313rem;
     line-height: 2.313rem;
@@ -113,3 +113,66 @@ li:hover{
 svg:first-child:hover{
      fill:#ff5533;
  }
+
+.Get-started{
+    width: 100%;
+    height:800px;
+    background: black;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+} 
+
+.Get-started >img{
+    height:100%;
+    width:100%;
+    opacity: 0.2;
+
+}
+.Get-started> h3{
+    color:#00AA98;
+    font-size:x-large;
+    position:absolute; 
+    left:45%;
+    top:50px;
+}
+
+.Get-started > h1{
+    position:absolute;
+    top:150px;
+    left:25%;
+    color:white;
+    font-family: cursive;
+    font-size:xx-large;
+}
+
+.find {
+    height:400px;
+    width:400px;
+    position:absolute;
+    top:300px;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 20px;
+    display: inline;
+    margin:0px;
+    padding: 0px;
+}
+.volunteer{
+    left:25%;
+}
+.volunteer > h1{
+    color:#002F49;
+    font-weight: bold;
+}
+.volunteer > h3{
+    font-size: medium;
+    font-weight: bold;
+}
+.volunteer > img{
+    margin-top:60px;
+}
+
+.opportunities{
+    left :50%;
+}
