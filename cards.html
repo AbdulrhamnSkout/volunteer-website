@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteering Cards</title>
+</head>
+<style>
+    body {
+        padding: 20px;
+    }
+    
+    .volunteering-Card {
+        width: 250px;
+        height: 350px;
+        border: 1px solid;
+        box-shadow: 0.5px 0.5px blueviolet;
+        overflow: hidden;
+    }
+    
+    .volunteering-Card:hover {
+        transform: scale(1.02);
+    }
+    
+    .card-head {
+        /* display: flex; */
+        background-color: blue;
+        height: 40px;
+        padding: 10px;
+        color: aliceblue;
+    }
+    
+    .card-description,
+    .card-body,
+    .card-title {
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+        height: 80px
+    }
+    
+    .card-body {
+        width: 230px;
+        height: 120px;
+    }
+    
+    .card-title {
+        width: 230px;
+        height: 80px
+    }
+    
+    .card-description {
+        width: 230px;
+        height: 130px;
+    }
+    
+    .card-description .card-hours {
+        text-align: center;
+        font: bolder;
+    }
+    
+    .card-body>p {
+        width: 230px;
+        color: darkgray;
+        word-wrap: break-word;
+    }
+    
+    .card-country {
+        margin-left: 30px;
+    }
+    
+    .p-description {
+        margin: -10px;
+        margin-top: -15px;
+    }
+</style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<body>
+    <section>
+
+        <div class="volunteering-Card">
+            <div class="card-head">
+                <span class="card-name">
+                    Category Name
+                </span>
+                <div>
+                    logo
+                </div>
+            </div>
+            <div class="card-title">
+                <h5> Here is the title of the volunteering work</h5>
+            </div>
+            <div class="card-body">
+                <p class="p-description" rows="3">Write grant proposal on Women Economic Justice.</p>
+            </div>
+            <div class="card-description">
+                <div class="card-time">
+                    <div class="card-hours">
+                        <b>6 - 7</b>
+                    </div> Hours / Week </div>
+                <div style="width: 2px;height: 35px; border-left:solid 1px black; margin-left: 10px;"></div>
+                <div class="card-country">
+                    <span>USA</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+
+</body>
+
+</html>
